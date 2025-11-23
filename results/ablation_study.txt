@@ -1,0 +1,75 @@
+# Existing Model Avg
+=== Average Metrics ===
+Acc: 0.1250
+Hamming: 0.9355
+Micro-F1: 0.1596
+Example-F1: 0.1748
+
+
+# Ablation study: alpha 1, beta 0
+Dataset: Reuters.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.039, Hamming: 0.782, Micro-F1: 0.053, Example-F1: 0.075
+Dataset: Corel5k.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.056, Hamming: 0.491, Micro-F1: 0.023, Example-F1: 0.155
+Dataset: Corel16k.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.019, Hamming: 0.462, Micro-F1: 0.032, Example-F1: 0.040
+Dataset: langlog.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.041, Hamming: 0.757, Micro-F1: 0.046, Example-F1: 0.075
+Dataset: Slashdot.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.088, Hamming: 0.724, Micro-F1: 0.150, Example-F1: 0.151
+Dataset: Stackex-chemistry.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.032, Hamming: 0.507, Micro-F1: 0.029, Example-F1: 0.068
+Dataset: Stackex_cs.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.028, Hamming: 0.472, Micro-F1: 0.022, Example-F1: 0.059
+Dataset: Stackex_philosophy.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.043, Hamming: 0.817, Micro-F1: 0.040, Example-F1: 0.084
+Dataset: Stackex_cooking.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.021, Hamming: 0.673, Micro-F1: 0.014, Example-F1: 0.045
+Dataset: Yelp.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.674, Hamming: 0.844, Micro-F1: 0.765, Example-F1: 0.762
+=== Average Metrics ===
+Acc: 0.1041
+Hamming: 0.6529
+Micro-F1: 0.1174
+Example-F1: 0.1514
+
+# Ablation study: alpha 0, beta 1
+Dataset: Reuters.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.039, Hamming: 0.782, Micro-F1: 0.053, Example-F1: 0.075
+Dataset: Corel5k.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.056, Hamming: 0.491, Micro-F1: 0.023, Example-F1: 0.155
+Dataset: Corel16k.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.019, Hamming: 0.462, Micro-F1: 0.032, Example-F1: 0.040
+Dataset: langlog.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.041, Hamming: 0.757, Micro-F1: 0.046, Example-F1: 0.075
+Dataset: Slashdot.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.088, Hamming: 0.724, Micro-F1: 0.150, Example-F1: 0.151
+Dataset: Stackex-chemistry.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.032, Hamming: 0.507, Micro-F1: 0.029, Example-F1: 0.068
+Dataset: Stackex_cs.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.028, Hamming: 0.472, Micro-F1: 0.022, Example-F1: 0.059
+Dataset: Stackex_philosophy.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.043, Hamming: 0.817, Micro-F1: 0.040, Example-F1: 0.084
+Dataset: Stackex_cooking.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.021, Hamming: 0.673, Micro-F1: 0.014, Example-F1: 0.045
+Dataset: Yelp.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.674, Hamming: 0.844, Micro-F1: 0.765, Example-F1: 0.762
+=== Average Metrics ===
+Acc: 0.1041
+Hamming: 0.6529
+Micro-F1: 0.1174
+Example-F1: 0.1514
+
+# Ablation study: alpha 1, beta 1
+Dataset: Reuters.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.014, Hamming: 0.973, Micro-F1: 0.019, Example-F1: 0.018
+Dataset: Corel5k.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.268, Hamming: 0.988, Micro-F1: 0.369, Example-F1: 0.375
+Dataset: Corel16k.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.023, Hamming: 0.971, Micro-F1: 0.041, Example-F1: 0.038
+Dataset: langlog.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.030, Hamming: 0.972, Micro-F1: 0.036, Example-F1: 0.034
+Dataset: Slashdot.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.145, Hamming: 0.916, Micro-F1: 0.150, Example-F1: 0.153
+Dataset: Stackex-chemistry.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.037, Hamming: 0.978, Micro-F1: 0.056, Example-F1: 0.057
+Dataset: Stackex_cs.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.026, Hamming: 0.984, Micro-F1: 0.044, Example-F1: 0.042
+Dataset: Stackex_philosophy.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.035, Hamming: 0.982, Micro-F1: 0.058, Example-F1: 0.057
+Dataset: Stackex_cooking.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.015, Hamming: 0.990, Micro-F1: 0.023, Example-F1: 0.023
+Dataset: Yelp.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.545, Hamming: 0.769, Micro-F1: 0.628, Example-F1: 0.630
+=== Average Metrics ===
+Acc: 0.1138
+Hamming: 0.9523
+Micro-F1: 0.1424
+Example-F1: 0.1427
+
+# Ablation study: alpha 0, beta 0
+Dataset: Reuters.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.015, Hamming: 0.174, Micro-F1: 0.028, Example-F1: 0.031
+Dataset: Corel5k.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.012, Hamming: 0.953, Micro-F1: 0.018, Example-F1: 0.042
+Dataset: Corel16k.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.015, Hamming: 0.734, Micro-F1: 0.031, Example-F1: 0.032
+Dataset: langlog.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.021, Hamming: 0.794, Micro-F1: 0.026, Example-F1: 0.038
+Dataset: Slashdot.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.071, Hamming: 0.634, Micro-F1: 0.115, Example-F1: 0.126
+Dataset: Stackex-chemistry.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.009, Hamming: 0.525, Micro-F1: 0.023, Example-F1: 0.020
+Dataset: Stackex_cs.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.009, Hamming: 0.747, Micro-F1: 0.018, Example-F1: 0.020
+Dataset: Stackex_philosophy.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.009, Hamming: 0.249, Micro-F1: 0.019, Example-F1: 0.018
+Dataset: Stackex_cooking.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.004, Hamming: 0.527, Micro-F1: 0.011, Example-F1: 0.008
+Dataset: Yelp.arff, Model: WeightAdjustingBinaryTransformation, Noise: False, Acc: 0.574, Hamming: 0.755, Micro-F1: 0.647, Example-F1: 0.669
+=== Average Metrics ===
+Acc: 0.0739
+Hamming: 0.6092
+Micro-F1: 0.0936
+Example-F1: 0.1004

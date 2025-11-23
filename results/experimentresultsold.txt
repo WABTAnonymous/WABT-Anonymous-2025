@@ -1,0 +1,38 @@
+Dataset: Slashdot.arff, Model: ClassifierChain, Drift: False, Noise: True, Acc: 0.104, Hamming: 0.947, Micro-F1: 0.170, Example-F1: 0.112
+Dataset: Yelp.arff, Model: ClassifierChain, Drift: False, Noise: True, Acc: 0.449, Hamming: 0.764, Micro-F1: 0.615, Example-F1: 0.555
+Dataset: langlog.arff, Model: ClassifierChain, Drift: False, Noise: True, Acc: 0.001, Hamming: 0.984, Micro-F1: 0.001, Example-F1: 0.001
+Dataset: Stackex_cs.arff, Model: ClassifierChain, Drift: False, Noise: True, Acc: 0.042, Hamming: 0.990, Micro-F1: 0.081, Example-F1: 0.062
+Dataset: Stackex_philosophy.arff, Model: ClassifierChain, Drift: False, Noise: True, Acc: 0.025, Hamming: 0.990, Micro-F1: 0.044, Example-F1: 0.034
+Dataset: Stackex-chemistry.arff, Model: ClassifierChain, Drift: False, Noise: True, Acc: 0.011, Hamming: 0.988, Micro-F1: 0.021, Example-F1: 0.015
+Dataset: Reuters.arff, Model: ClassifierChain, Drift: False, Noise: True, Acc: 0.001, Hamming: 0.986, Micro-F1: 0.002, Example-F1: 0.001
+Dataset: Corel5k.arff, Model: ClassifierChain, Drift: False, Noise: True, Acc: 0.176, Hamming: 0.990, Micro-F1: 0.283, Example-F1: 0.259
+Dataset: Corel16k.arff, Model: ClassifierChain, Drift: False, Noise: True, Acc: 0.001, Hamming: 0.983, Micro-F1: 0.003, Example-F1: 0.002
+Dataset: Reuters.arff, Model: PrioritizedBinaryTransformation, Noise: True, Acc: 0.018, Hamming: 0.552, Micro-F1: 0.027, Example-F1: 0.035
+Dataset: Reuters.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.041, Hamming: 0.955, Micro-F1: 0.067, Example-F1: 0.068
+Dataset: Corel5k.arff, Model: PrioritizedBinaryTransformation, Noise: True, Acc: 0.017, Hamming: 0.822, Micro-F1: 0.019, Example-F1: 0.071
+Dataset: Corel5k.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.104, Hamming: 0.840, Micro-F1: 0.051, Example-F1: 0.197
+Dataset: Corel16k.arff, Model: PrioritizedBinaryTransformation, Noise: True, Acc: 0.014, Hamming: 0.722, Micro-F1: 0.031, Example-F1: 0.031
+Dataset: Corel16k.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.034, Hamming: 0.956, Micro-F1: 0.067, Example-F1: 0.065
+Dataset: Stackex_cs.arff, Model: PrioritizedBinaryTransformation, Noise: True, Acc: 0.015, Hamming: 0.902, Micro-F1: 0.023, Example-F1: 0.035
+Dataset: Stackex_cs.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.046, Hamming: 0.977, Micro-F1: 0.083, Example-F1: 0.081
+Dataset: Stackex_philosophy.arff, Model: PrioritizedBinaryTransformation, Noise: True, Acc: 0.010, Hamming: 0.422, Micro-F1: 0.019, Example-F1: 0.022
+Dataset: Stackex_philosophy.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.061, Hamming: 0.972, Micro-F1: 0.109, Example-F1: 0.113
+Dataset: Stackex-chemistry.arff, Model: PrioritizedBinaryTransformation, Noise: True, Acc: 0.018, Hamming: 0.639, Micro-F1: 0.025, Example-F1: 0.041
+Dataset: Stackex-chemistry.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.061, Hamming: 0.965, Micro-F1: 0.107, Example-F1: 0.108
+Dataset: langlog.arff, Model: PrioritizedBinaryTransformation, Noise: True, Acc: 0.021, Hamming: 0.813, Micro-F1: 0.034, Example-F1: 0.039
+Dataset: langlog.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.055, Hamming: 0.950, Micro-F1: 0.091, Example-F1: 0.087
+Dataset: Yelp.arff, Model: PrioritizedBinaryTransformation, Noise: True, Acc: 0.699, Hamming: 0.863, Micro-F1: 0.790, Example-F1: 0.789
+Dataset: Yelp.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.680, Hamming: 0.851, Micro-F1: 0.772, Example-F1: 0.771
+Dataset: Slashdot.arff, Model: PrioritizedBinaryTransformation, Noise: True, Acc: 0.074, Hamming: 0.702, Micro-F1: 0.113, Example-F1: 0.128
+Dataset: Slashdot.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.109, Hamming: 0.825, Micro-F1: 0.176, Example-F1: 0.173
+Dataset: Stackex_cooking.arff, Model: ClassifierChain, Noise: True, Acc: 0.042, Hamming: 0.994, Micro-F1: 0.076, Example-F1: 0.058
+Dataset: Stackex_cooking.arff, Model: PrioritizedBinaryTransformation, Noise: True, Acc: 0.008, Hamming: 0.702, Micro-F1: 0.011, Example-F1: 0.017
+Dataset: Stackex_cooking.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.025, Hamming: 0.986, Micro-F1: 0.045, Example-F1: 0.043
+Dataset: Yelp.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.677, Hamming: 0.847, Micro-F1: 0.767, Example-F1: 0.766
+Dataset: langlog.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.054, Hamming: 0.949, Micro-F1: 0.096, Example-F1: 0.089
+Dataset: Slashdot.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.106, Hamming: 0.826, Micro-F1: 0.168, Example-F1: 0.167
+Dataset: Slashdot.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.105, Hamming: 0.829, Micro-F1: 0.170, Example-F1: 0.166
+Dataset: Reuters.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.040, Hamming: 0.958, Micro-F1: 0.065, Example-F1: 0.066
+Dataset: Reuters.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.040, Hamming: 0.957, Micro-F1: 0.065, Example-F1: 0.066
+Dataset: Reuters.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.040, Hamming: 0.958, Micro-F1: 0.064, Example-F1: 0.066
+Dataset: Reuters.arff, Model: WeightAdjustingBinaryTransformation, Noise: True, Acc: 0.041, Hamming: 0.958, Micro-F1: 0.067, Example-F1: 0.068

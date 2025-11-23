@@ -1,0 +1,11 @@
+Dataset,CC,PBT,WABT
+Corel5k,0.259,0.071,0.197
+Corel16k,0.002,0.031,0.065
+Reuters,0.001,0.035,0.068
+Stackex-chemistry,0.015,0.041,0.108
+Stackex_philosophy,0.034,0.022,0.113
+Stackex_cooking,0.058,0.017,0.043
+Stackex_cs,0.062,0.035,0.081
+Yelp,0.555,0.789,0.771
+Slashdot,0.112,0.128,0.173
+langlog,0.001,0.039,0.087
